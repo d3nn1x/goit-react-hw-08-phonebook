@@ -1,0 +1,29 @@
+.listItem {
+  padding: 5px 0;
+}
+
+.wrapper {
+  margin: 2px 0;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnDelete {
+  appearance: none;
+  outline: 0;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px;
+  transition-duration: 0.25s;
+  width: 30px;
+  padding: 0px;
+  color: white;
+  background-color: #eb5a46;
+}
+
+.btnDelete:hover {
+  background-color: rgba(255, 78, 55, 0.979);
+}
